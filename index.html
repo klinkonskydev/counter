@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Counter</title>
+</head>
+<body>
+    
+    <header>
+        <h1 class="title">GO COUNT</h1>
+    </header>
+
+
+    <main>
+
+        <section>
+
+            <div class="input-counter">
+
+                <p class="text-input">INICIO:
+                    <input type="number" id="counter-init" class="input-count init-count">
+                </p>
+
+                <p class="text-input">FIM:
+                    <input type="number" id="counter-end" class="input-count end-count">
+                </p>
+
+                <p class="text-input">PASSO:
+                    <input type="number" id="counter-jump" class="input-count jump-count">
+                </p>
+
+                <button 
+                class="start-counter"
+                id="start-btn"
+                onclick="count()"
+                >CONTAR</button>
+
+                <p class="paragraph-div" id="counter">PREPARANDO CONTAGEM...</p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p class="rodape">&copy; CursoemVideo </p>
+    </footer>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
